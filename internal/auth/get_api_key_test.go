@@ -9,8 +9,8 @@ import (
 
 func TestGetAPIKey(t *testing.T) {
 	tests := []struct {
-		key       int 
-		value     int
+		key       string
+		value     string
 		expect    string
 		expectErr string
 	}{
