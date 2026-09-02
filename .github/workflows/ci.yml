@@ -39,6 +39,7 @@ jobs:
 
       - name: Format check
         run: test -z $(go fmt ./...)
+
+      - name: Run staticcheck
         run: staticcheck
-     
       
